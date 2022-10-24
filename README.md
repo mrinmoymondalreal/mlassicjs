@@ -7,6 +7,7 @@ Lite weight solution for creating heavy production level web apps.
 
 making web app with heavy web frameworks (like Reactjs) is not ideal. Especially when profermance is Important.
 
+Mlassic is in beta carefull while using it bugs may appear.
 
 ## Installation
 
