@@ -1,6 +1,6 @@
 {
   "name": "mlassicjs",
-  "version": "1.0.12",
+  "version": "1.0.121",
   "description": "classic way of creating modern web apps with blazingly fast reactivity",
   "main": "index.js",
   "scripts": {
