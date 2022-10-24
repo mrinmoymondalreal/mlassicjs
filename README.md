@@ -7,11 +7,10 @@ Lite weight solution for creating heavy production level web apps.
 
 making web app with heavy web frameworks (like Reactjs) is not ideal. Especially when profermance is Important.
 
-Mlassic is in beta.
 
 ## Installation
 
-```bash
+```node
   npm i mlassicjs
 ```
 
@@ -20,7 +19,7 @@ Mlassic is in beta.
 
 ### In the browser
 
-```bash
+```jsx
   import { render } from "mlasssicjs";
   function App() {
     return <div>Hello World</div>;
@@ -31,7 +30,7 @@ Mlassic is in beta.
 ### using Hooks
 most important thing in a "reactive" web app.
 
-```bash
+```jsx
   import { render, useState, useEffect } from "mlassicjs";
 
   const [ count, setCount ] = useState(0);
@@ -54,7 +53,7 @@ most important thing in a "reactive" web app.
 
 using Hooks with Callers 
 
-```bash
+```jsx
   import { render, useState, useEffect } from "mlassicjs";
 
   const [ count, setCount ] = useState(0);
