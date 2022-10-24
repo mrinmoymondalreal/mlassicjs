@@ -9,7 +9,6 @@ const Mlassic = {
     }
 }
 
-
 module.exports = {
-    React
+    Mlassic
 }
