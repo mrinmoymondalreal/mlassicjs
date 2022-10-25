@@ -47,7 +47,7 @@ function render(element, container, c){
     }
     if(element.props){
         Object.keys(element.props).filter(e=>e!="children").forEach(e=>{
-            if(element.props[e].isState){
+            if(element.props[e] && element.props[e].isState){
                 let state = element.props[e];
                 let value = element.props[e].cb ? element.props[e].cb(element.props[e]()) : element.props[e]();
                 actualDomElement[e] = value;
